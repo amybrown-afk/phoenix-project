@@ -15,7 +15,7 @@ export const query = graphql`
         node {
           id
           roleTitle
-          _rawRoleDescription
+          
         }
       }
     }
@@ -57,7 +57,7 @@ const OpenRolesPage = (props) => {
         {openRolesNodes.map((openRoles, index) => (
           <div key={index}>
             <h2 className="mb-5">{openRoles.roleTitle}</h2>
-            <p className="mb-5">{Array.isArray(openRoles._rawRoleDescription) ? openRoles._rawRoleDescription.map(block => block.children?.map(child => child.text).join('')).join(' ') : openRoles._rawRoleDescription || ''}</p>
+            <p className="mb-5"></p>
             <Link to="/contact" className="btn btn-primary mb-5">
               Apply now
               <Arrow />
