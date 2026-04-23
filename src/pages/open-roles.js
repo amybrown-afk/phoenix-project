@@ -57,7 +57,7 @@ const OpenRolesPage = (props) => {
         {openRolesNodes.map((openRoles, index) => (
           <div key={index}>
             <h2 className="mb-5">{openRoles.roleTitle}</h2>
-            <p className="mb-5">{openRoles._rawRoleDescription}</p>
+            <p className="mb-5">{openRoles.roleDescription}</p>
             <Link to="/contact" className="btn btn-primary mb-5">
               Apply now
               <Arrow />
