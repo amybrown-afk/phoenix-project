@@ -183,7 +183,7 @@ const AboutPage = ({ data }) => {
             >
               <h2 className="subheading mt-3">TRULY FLEXIBLE CULTURE</h2>
               <h3 className="display-4 mb-4">
-                Balance, babies and conceptual blending
+                We love balance and conceptual blending.
               </h3>
               <p className="aboutWidth">
                 We grew up as our team members families grew! Inherently, our
