@@ -127,13 +127,12 @@ const AboutPage = ({ data }) => {
                 Our team is tiny, but truly global.
               </h3>
               <p className="aboutWidth">
-                "Our core team spans seven nationalities and ten languages.
-                We’ve also built a network of trusted partners around the world,
+                "Our core team spans nationalities and languages.
+                We've built a network of trusted partners around the world,
                 giving us nuance and depth in each region. Whether you want to
-                do retail research in the Philippines, positioning in India,
+                do retail research in the Philippines,
                 semiotics in Paris, or get Aussie reactions to brand tone of
-                voice, we’ve got you covered wherever you’re growing or planning
-                on going."
+                voice, we’ve got you covered wherever you’re headed."
               </p>
             </Col>
           </Row>
