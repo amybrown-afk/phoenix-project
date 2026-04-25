@@ -48,8 +48,8 @@ const ContactPage = () => {
             <p className="mb-0">Call us:</p>
             <p>+31 (0)6 188 978 75</p>
             <p className="mb-0">Drop in:</p>
-            <p className="mb-0">Keizersgracht 560-562</p>
-            <p>1017 EM Amsterdam, NL</p>
+            <p className="mb-0">Keizersgracht 264</p>
+            <p>Amsterdam, NL</p>
           </Col>
         </Row>
       </Container>
